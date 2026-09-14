@@ -26,7 +26,7 @@ public class Ejercicio8 {
                     menorrepetido++;
                 }
                 System.out.println("El número mayor es: " + mayor + " y se repite " + mayorrepetido + " veces.");
-                System.out.println("El número menor es: " + menor + " y se repite
+                System.out.println("El número menor es: " + menor + " y se repite " + menorrepetido + " veces.");
             }
         }
     }
