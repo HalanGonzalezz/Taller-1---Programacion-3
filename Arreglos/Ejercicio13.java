@@ -12,6 +12,19 @@ public class Ejercicio13 {
         }
         Double promedio = suma / A.length;
 
+        int contadorMayor = 0;
+        int contadorMenor = 0;
+        for (int num : A) {
+            if (num > promedio) {
+                contadorMayor++;
+            } else if (num < promedio) {
+                contadorMenor++;
+            }
+
+            int[] mayores = new int[contadorMayor];
+            int[] menores = new int[contadorMenor];
+        }
+
         
     }
     
