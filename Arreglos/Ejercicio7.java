@@ -16,7 +16,8 @@ public class Ejercicio7 {
                 impares++;
             }
         }
-        System.out.println("Pares: " + pares);
-        System.out.println("Impares: " + impares);
+        int[] B = new int[pares];
+        int[] C = new int[impares];
+       
     }
 }
