@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Ejercicio8 {
     public static void main(String[] args) {
         int[] Arreglo = new int[30];
@@ -9,13 +11,14 @@ public class Ejercicio8 {
 
         int mayor = Arreglo[0];
         int menor = Arreglo[0];
-        for (int num : arreglo) {
+        for (int num : Arreglo) {
             if (num > mayor) {
                 mayor = num;
             }
             if (num < menor) {
                 menor = num;
             }
+        }
             int mayorrepetido = 0;
             int menorrepetido = 0;
             for (int num : Arreglo) {
@@ -27,7 +30,10 @@ public class Ejercicio8 {
                 }
                 System.out.println("El número mayor es: " + mayor + " y se repite " + mayorrepetido + " veces.");
                 System.out.println("El número menor es: " + menor + " y se repite " + menorrepetido + " veces.");
-            }
-        }
+            
+        
     }
 }
+    }
+
+
