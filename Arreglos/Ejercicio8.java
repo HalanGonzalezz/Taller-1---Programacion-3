@@ -16,6 +16,18 @@ public class Ejercicio8 {
             if (num < menor) {
                 menor = num;
             }
+            int mayorrepetido = 0;
+            int menorrepetido = 0;
+            for (int num : Arreglo) {
+                if (num == mayor) {
+                    mayorrepetido++;
+                }
+                if (num == menor) {
+                    menorrepetido++;
+                }
+                System.out.println("El número mayor es: " + mayor + " y se repite " + mayorrepetido + " veces.");
+                System.out.println("El número menor es: " + menor + " y se repite
+            }
         }
     }
 }
