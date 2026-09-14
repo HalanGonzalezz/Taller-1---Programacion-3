@@ -15,7 +15,14 @@ public class Ejercicio9 {
     }
     System.out.println("\nIngrese un número entero a buscar en el arreglo: ");
     int num = sc.nextInt();
-    
+
+    int contador = 0;
+    for (int n : A) {
+        if (n == num) {
+            contador++;
+        }
+    }
+    System.out.println("El número " + num + " se repite " + contador + " veces en el arreglo.");
     
     
 }
