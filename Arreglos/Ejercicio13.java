@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Ejercicio13 {
     public static void main(String[] args) {
-        int[] A = new int[10];
+        int[] A = new int[20];
         Random r = new Random();
         Double suma = 0.0;
 
@@ -23,9 +23,16 @@ public class Ejercicio13 {
 
             int[] mayores = new int[contadorMayor];
             int[] menores = new int[contadorMenor];
-        }
 
-        
+            int iMayor = 0;
+            int iMenor = 0;
+            for (int n : A) {
+                if (n > promedio)
+                    mayores[iMayor++] = n;
+                else if (n < promedio)
+                    menores[iMenor++] = n;
+            }
+
+        }
     }
-    
 }
