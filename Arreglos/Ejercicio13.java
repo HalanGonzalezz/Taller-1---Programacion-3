@@ -26,13 +26,25 @@ public class Ejercicio13 {
 
             int iMayor = 0;
             int iMenor = 0;
-            for (int n : A) {
-                if (n > promedio)
-                    mayores[iMayor++] = n;
-                else if (n < promedio)
-                    menores[iMenor++] = n;
+            for (int num : A) {
+                if (num > promedio)
+                    mayores[iMayor++] = num;
+                else if (num < promedio)
+                    menores[iMenor++] = num;
             }
 
+            System.out.println("Arreglo A: ");
+            for (int n : A) {
+                System.out.print(n + " ");  
+            System.out.println("\nPromedio: " + promedio);
+            System.out.println("Números mayores al promedio: ");
+            for (int n : mayores) {
+                System.out.print(n + " ");
+            }
+            System.out.println("\nNúmeros menores al promedio: ");
+            for (int n : menores) {
+                System.out.print(n + " ");
+            }
         }
     }
 }
